@@ -157,5 +157,10 @@ body{
     .Presentacion__contenido{
         width:auto;
     }
+    .Presentacion__contenido__Dudas{
+        width: auto;
+    }
+    .Presentacion__enlaces__Dudas {
+        justify-content: center;
+    }
 }
-    
