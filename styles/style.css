@@ -12,7 +12,7 @@
 * {
     padding: 0;
     margin:0;
-}
+} 
 
 body{
     height: 100vh;
@@ -49,13 +49,20 @@ body{
     flex-direction: column;
     gap: 2.5rem;
 }
-
-
+.Presentacion__contenido__Dudas{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
 .Presentacion__contenido__titulo{
     font-size: 2.25rem;
     font-family: var(--fuente-krona);
 }
-
+.Presentacion__contenido__titulo__Dudas{
+    font-size: 2rem;
+    font-family: var(--fuente-krona);    
+}
 .titulo-destacado{
     color:var(--color-terciario) ;
 }
@@ -72,7 +79,13 @@ body{
     align-items: center;
     gap: 2rem;
 }
-
+.Presentacion__enlaces__Dudas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.3rem;
+}
 .Presentacion__enlaces__Subtitulos{
     font-family: var(--fuente-krona);
     font-weight: 400;
@@ -80,7 +93,6 @@ body{
 }
 
 .Presentacion__enlaces__link{
-      /* background-color: #22D4FD; */
       display: flex;
       justify-content: center;
       gap: 1rem;
@@ -95,8 +107,25 @@ body{
       color: var(--color-secundario);
       font-family: var(--fuente-montserrat);
 }
-
 .Presentacion__enlaces__link:hover{
+    background-color: var(--color-hover);
+}
+.Presentacion__enlaces__Catalogo{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    border: 2px solid  var(--color-terciario);
+    width: 50%;
+    text-align: center;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: var(--color-secundario);
+    font-family: var(--fuente-montserrat);   
+}
+.Presentacion__enlaces__Catalogo:hover{
     background-color: var(--color-hover);
 }
 
