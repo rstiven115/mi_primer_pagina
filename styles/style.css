@@ -160,7 +160,7 @@ body{
     .Presentacion__contenido__Dudas{
         width: auto;
     }
-    .Presentacion__enlaces__Dudas {
+    .Presentacion__enlaces__link{
         justify-content: center;
     }
 }
